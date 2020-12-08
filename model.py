@@ -169,7 +169,6 @@ def reading(memory, article):
             for a,b in zip(chunks_in_sent[:-2], chunks_in_sent[2:]):
                 if random.random() < (memory_in*memory_in):
                     memorize(memory, to_memorize, ('skipgram', a,b), reward_list)
-                    print(a,b)
                     
             while 1:
                 skip_gram, skip, chunks_in_sent = memory.skipgram_match(chunks_in_sent)    
