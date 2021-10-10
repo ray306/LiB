@@ -1,3 +1,9 @@
+The online demo of LiB is here:
+https://hub.gke2.mybinder.org/user/ray306-lib_demo-p367jg27/doc/workspaces/auto-7/tree/Quick_Demo.ipynb
+You can run the Jupyter notebook to see the segmentation result.
+
+---
+
 The code and data of paper `Unsupervised text segmentation predicts eye fixations during reading` are achieved in https://github.com/ray306/LiB-predicts-eye-fixations/
 
 ---
